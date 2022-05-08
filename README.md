@@ -11,10 +11,10 @@ Utilizing sklearn and tensorflow in Python, I will build a binary classifier tha
 
 - Compiling, Training, and Evaluating the Model
     
-    ![Model_Design.png]('https://github.com/Lavernus/Neural_Network_Charity_Analysis/blob/main/Images/Model_Design.png')
+    ![Model_Design.png](https://github.com/Lavernus/Neural_Network_Charity_Analysis/blob/main/Images/Model_Design.png)
     - For the model setup, I chose to use only two layers at first, with 8 and 5 neurons respectively. I wanted to keep the model simple at first so that I could avoid over-fitting, as well as provide a base from which optimization could build on. For the activation functions, I chose Relu for the hidden layers and Sigmoid for the output layer. I thought that Relu was the best choice for the input features since the features were all positive and some were nonlinear, and Sigmoid was the best choice for the output layer since **IS_SUCCESSFUL** was a binary value.
 
-    ![Performance1.png]('https://github.com/Lavernus/Neural_Network_Charity_Analysis/blob/main/Images/Performance1.png')
+    ![Performance1.png](https://github.com/Lavernus/Neural_Network_Charity_Analysis/blob/main/Images/Performance1.png)
     - With the first model, performance was around 65% accuracy, which isn't terrible, but not at the target of 75%.
     - Optimization for this model was a battle. 
         - I first tried increasing the epochs of the model training in order to give the model increase the amount of information provided to each neuron. This resulted in a lowered accuracy.
